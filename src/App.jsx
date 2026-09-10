@@ -1,5 +1,6 @@
-import Product from "./components/UserProfile/Product/Product"
-import UserProfile from "./components/UserProfile/UserProfile"
+
+import UserProfile from './components/UserProfile/UserProfile';
+import Product from './components/Product/Product'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <th>quantity</th>
       </tr>
       <Product title='Milk' price={32} quantity={1}/>
+    
     </table>
   </>
 
