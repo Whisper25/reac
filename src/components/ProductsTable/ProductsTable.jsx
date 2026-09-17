@@ -2,7 +2,7 @@ import products from './data';
 import Product from '../Product/Product'
 import styles from './ProductsTable.module.css'
 const ProductsTable = () => {
-    const showProduct = (product)=>{<Product key ={product.id} product={product}/>}
+    const showProduct = (product)=>(<Product key ={product.id} product={product}/>)
     return (
         <table className={styles.table}>
             <thead>
